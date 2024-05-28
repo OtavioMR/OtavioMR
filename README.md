@@ -36,7 +36,7 @@ Este é meu site portifolio, criado e desenvolvido por mim.
   
  ✌️ &emsp; Experiência com desenvolvimento Enterprise <br/><br/>
  ❤️ &emsp; Apaixonado pela cultura Alemã<br/><br/>
- 📧 &emsp; Contas principais: vilarim.lucas@gmail.com & vilarim.lucas@outlook.com<br/><br/>
+ 📧 &emsp; Contas principais: email<br/><br/>
  💬 &emsp; Saiba mais  <a href="#" target="_blank">clicando aqui!</a>
 
 </p>
