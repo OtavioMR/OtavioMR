@@ -34,9 +34,9 @@ Este é meu site portifolio, criado e desenvolvido por mim.
 <p>
  <img align="right" width="350" src="/assets/programmer.gif" alt="Coding gif" />
   
- ✌️ &emsp; Experiência com desenvolvimento Enterprise <br/><br/>
- ❤️ &emsp; Apaixonado pela cultura Alemã<br/><br/>
- 📧 &emsp; Contas principais: email<br/><br/>
+ ✌️ &emsp; Estudante de programação <br/><br/>
+ ❤️ &emsp; Apaixonado por desenvolvimento back-end <br/><br/>
+ 📧 &emsp; Email: otavvioo11@gmail.com<br/><br/>
  💬 &emsp; Saiba mais  <a href="#" target="_blank">clicando aqui!</a>
 
 </p>
