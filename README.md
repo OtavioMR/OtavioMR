@@ -1,9 +1,9 @@
 # Portifolio
-Este é meu site portifolio, criado e desenvolvido por mim.
+
 
 <!-- Intro  -->
 <h3 align="center">
-        <samp>&gt; Olá! Eu sou Desenvolvedor Multiplataforma brasileiro </samp>
+        <samp>&gt; Olá! Eu sou estudante de Desenvolvimento Multiplataforma brasileiro </samp>
 </h3>
 
 <p align="center">
