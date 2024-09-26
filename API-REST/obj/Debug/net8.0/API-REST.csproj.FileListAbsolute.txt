@@ -1,0 +1,8 @@
+C:\Users\Usuario12\Desktop\OtavioMR\API-REST\obj\Debug\net8.0\API-REST.csproj.AssemblyReference.cache
+C:\Users\Usuario12\Desktop\OtavioMR\API-REST\obj\Debug\net8.0\API-REST.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario12\Desktop\OtavioMR\API-REST\obj\Debug\net8.0\API-REST.AssemblyInfoInputs.cache
+C:\Users\Usuario12\Desktop\OtavioMR\API-REST\obj\Debug\net8.0\API-REST.AssemblyInfo.cs
+C:\Users\Usuario12\Desktop\OtavioMR\API-REST\obj\Debug\net8.0\API-REST.csproj.CoreCompileInputs.cache
+C:\Users\Usuario12\Desktop\OtavioMR\API-REST\obj\Debug\net8.0\API-REST.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Usuario12\Desktop\OtavioMR\API-REST\obj\Debug\net8.0\API-REST.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario12\Desktop\OtavioMR\API-REST\obj\Debug\net8.0\API-REST.sourcelink.json
