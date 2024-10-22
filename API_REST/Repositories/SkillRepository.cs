@@ -1,6 +1,5 @@
-﻿using API_REST.Models;
-using API_REST.Data;
-using API_REST.Repositories;
+﻿using API_REST.Data;
+using API_REST.Models;
 using API_REST.Repositories.Interfaces;
 using Firebase.Database;
 using Firebase.Database.Query;
@@ -11,10 +10,9 @@ namespace API_REST.Repositories
     {
         private readonly FirebaseClient _firebaseClient;
 
-        // Construtor com injeção de dependência do FirebaseClient
-        public SkillRepository(FirebaseClient firebaseClient)
+        public SkillRepository(FirebaseContext context)
         {
-            _firebaseClient = firebaseClient ?? throw new ArgumentNullException(nameof(firebaseClient));
+            _firebaseClient = context.Client;
         }
 
         // Método para adicionar uma nova skill
@@ -29,26 +27,8 @@ namespace API_REST.Repositories
                 .Child("Skills")
                 .PostAsync(skill);
 
-            skill.Id = result.Key; // Armazena o Id gerado automaticamente pelo Firebase
+            skill.Id = result.Key;
             return skill;
-        }
-
-        // Método para deletar uma skill
-        public async Task<bool> DeleteSkill(string id)
-        {
-            var existingSkill = await GetSkillById(id);
-
-            if (existingSkill == null)
-            {
-                throw new KeyNotFoundException($"Habilidade com o Id: {id} não foi encontrada no Firebase.");
-            }
-
-            await _firebaseClient
-                .Child("Skills")
-                .Child(id)
-                .DeleteAsync();
-
-            return true;
         }
 
         // Método para listar todas as habilidades
@@ -80,7 +60,7 @@ namespace API_REST.Repositories
                 return null;
             }
 
-            skill.Id = id; // Certifica que o Id é mantido no retorno
+            skill.Id = id;
             return skill;
         }
 
@@ -99,13 +79,31 @@ namespace API_REST.Repositories
                 throw new KeyNotFoundException($"Habilidade de id: {id} não consta no Firebase.");
             }
 
-            skill.Id = id; // Certifica que o id seja o mesmo na atualização
+            skill.Id = id;
             await _firebaseClient
                 .Child("Skills")
                 .Child(id)
                 .PutAsync(skill);
 
             return skill;
+        }
+
+        // Método para deletar uma habilidade 
+        public async Task<bool> DeleteSkill(string id)
+        {
+            var existingSkill = await GetSkillById(id);
+
+            if (existingSkill == null)
+            {
+                throw new KeyNotFoundException($"Habilidade com o ID: {id} não consta no banco de dados.");
+            }
+
+            await _firebaseClient
+                .Child("Skills")
+                .Child(id)
+                .DeleteAsync();
+
+            return true;
         }
     }
 }

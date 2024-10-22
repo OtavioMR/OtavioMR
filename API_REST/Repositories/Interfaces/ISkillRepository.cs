@@ -8,6 +8,7 @@ namespace API_REST.Repositories.Interfaces
         Task<SkillModel> GetSkillById(string id);
         Task<SkillModel> AddSkill(SkillModel skill);
         Task<SkillModel> UpdateSkill(SkillModel skill, string id);
-        Task<SkillModel> DeleteSkill(string id);
+        Task<bool> DeleteSkill(string id);
+
     }
 }
