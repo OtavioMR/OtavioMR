@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LlBJbafrSH3bmuiM18QVC2f8o5nIiXiiVH74XKyaQvc=",
+  "Source": "API_REST",
+  "BasePath": "_content/API_REST",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

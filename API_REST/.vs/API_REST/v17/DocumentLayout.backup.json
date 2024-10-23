@@ -1,0 +1,131 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\otavv\\Desktop\\OtavioMR\\API_REST\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF86BB25-3DA0-4932-B876-DDC8042CD5E1}|API_REST.csproj|c:\\users\\otavv\\desktop\\otaviomr\\api_rest\\controllers\\skillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF86BB25-3DA0-4932-B876-DDC8042CD5E1}|API_REST.csproj|solutionrelative:controllers\\skillcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF86BB25-3DA0-4932-B876-DDC8042CD5E1}|API_REST.csproj|c:\\users\\otavv\\desktop\\otaviomr\\api_rest\\models\\skillmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF86BB25-3DA0-4932-B876-DDC8042CD5E1}|API_REST.csproj|solutionrelative:models\\skillmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF86BB25-3DA0-4932-B876-DDC8042CD5E1}|API_REST.csproj|c:\\users\\otavv\\desktop\\otaviomr\\api_rest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF86BB25-3DA0-4932-B876-DDC8042CD5E1}|API_REST.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF86BB25-3DA0-4932-B876-DDC8042CD5E1}|API_REST.csproj|c:\\users\\otavv\\desktop\\otaviomr\\api_rest\\repositories\\skillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF86BB25-3DA0-4932-B876-DDC8042CD5E1}|API_REST.csproj|solutionrelative:repositories\\skillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF86BB25-3DA0-4932-B876-DDC8042CD5E1}|API_REST.csproj|c:\\users\\otavv\\desktop\\otaviomr\\api_rest\\data\\firebasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF86BB25-3DA0-4932-B876-DDC8042CD5E1}|API_REST.csproj|solutionrelative:data\\firebasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF86BB25-3DA0-4932-B876-DDC8042CD5E1}|API_REST.csproj|c:\\users\\otavv\\desktop\\otaviomr\\api_rest\\repositories\\interfaces\\iskillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF86BB25-3DA0-4932-B876-DDC8042CD5E1}|API_REST.csproj|solutionrelative:repositories\\interfaces\\iskillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SkillController.cs",
+              "DocumentMoniker": "C:\\Users\\otavv\\Desktop\\OtavioMR\\API_REST\\Controllers\\SkillController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SkillController.cs",
+              "ToolTip": "C:\\Users\\otavv\\Desktop\\OtavioMR\\API_REST\\Controllers\\SkillController.cs",
+              "RelativeToolTip": "Controllers\\SkillController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAowDwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:27:16.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SkillRepository.cs",
+              "DocumentMoniker": "C:\\Users\\otavv\\Desktop\\OtavioMR\\API_REST\\Repositories\\SkillRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\SkillRepository.cs",
+              "ToolTip": "C:\\Users\\otavv\\Desktop\\OtavioMR\\API_REST\\Repositories\\SkillRepository.cs",
+              "RelativeToolTip": "Repositories\\SkillRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwB0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T12:37:32.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ISkillRepository.cs",
+              "DocumentMoniker": "C:\\Users\\otavv\\Desktop\\OtavioMR\\API_REST\\Repositories\\Interfaces\\ISkillRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\ISkillRepository.cs",
+              "ToolTip": "C:\\Users\\otavv\\Desktop\\OtavioMR\\API_REST\\Repositories\\Interfaces\\ISkillRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\ISkillRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T12:33:15.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\otavv\\Desktop\\OtavioMR\\API_REST\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\otavv\\Desktop\\OtavioMR\\API_REST\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T12:10:07.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FirebaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\otavv\\Desktop\\OtavioMR\\API_REST\\Data\\FirebaseContext.cs",
+              "RelativeDocumentMoniker": "Data\\FirebaseContext.cs",
+              "ToolTip": "C:\\Users\\otavv\\Desktop\\OtavioMR\\API_REST\\Data\\FirebaseContext.cs",
+              "RelativeToolTip": "Data\\FirebaseContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T12:20:48.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SkillModel.cs",
+              "DocumentMoniker": "C:\\Users\\otavv\\Desktop\\OtavioMR\\API_REST\\Models\\SkillModel.cs",
+              "RelativeDocumentMoniker": "Models\\SkillModel.cs",
+              "ToolTip": "C:\\Users\\otavv\\Desktop\\OtavioMR\\API_REST\\Models\\SkillModel.cs",
+              "RelativeToolTip": "Models\\SkillModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA1wBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T12:10:27.15Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
