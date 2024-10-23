@@ -1,4 +1,3 @@
-
 using API_REST.Data;
 using API_REST.Repositories;
 using API_REST.Repositories.Interfaces;
@@ -16,34 +15,29 @@ namespace API_REST
             {
                 options.AddPolicy("allowFrontend", policy =>
                 {
-                    policy.WithOrigins("http://126.0.0.1:5500")
-                    .AllowAnyHeader()
-                    .AllowAnyMethod();
+                    policy.WithOrigins("http://127.0.0.1:5500") // Altere se necessário
+                          .AllowAnyHeader()
+                          .AllowAnyMethod();
                 });
             });
 
 
-            //Configuração do Firebase
+            // Configuração do Firebase
             builder.Services.AddSingleton<FirebaseContext>(provider =>
                 new FirebaseContext("https://portifolio-api-rest-default-rtdb.firebaseio.com/"));
-
-
 
             // Injeção de dependência do repositório
             builder.Services.AddScoped<ISkillRepository, SkillRepository>();
 
-
-
-            // Add services to the container.
-
+            // Adiciona os serviços ao contêiner
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+            // Configuração do Swagger/OpenAPI
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
+            // Configuração do pipeline de requisições HTTP
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
@@ -51,9 +45,8 @@ namespace API_REST
             }
 
             app.UseHttpsRedirection();
-
+            app.UseCors("allowFrontend"); // Habilita a política de CORS aqui
             app.UseAuthorization();
-
 
             app.MapControllers();
 
