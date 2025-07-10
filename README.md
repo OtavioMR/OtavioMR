@@ -1,4 +1,4 @@
-# Portifolio
+# Portfólio
 
 
 <!-- Intro  -->
@@ -35,8 +35,8 @@
  <img align="right" width="350" src="/assets/programmer.gif" alt="Coding gif" />
   
  ✌️ &emsp; Estudante de programação <br/><br/>
- ❤️ &emsp; Apaixonado por desenvolvimento back-end <br/><br/>
- 📧 &emsp; Email: otavvioo11@gmail.com<br/><br/>
+ ❤️ &emsp; Apaixonado por desenvolvimento de sistemas<br/><br/>
+ 📧 &emsp; Email: otavio.monteiro.rodrigues@gmail.com<br/><br/>
  💬 &emsp; Saiba mais  <a href="#" target="_blank">clicando aqui!</a>
 
 </p>
